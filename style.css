@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.container{
+    width: 100%;
+    height: 900px;
+    margin-block: 10px;
+    padding: 10px;
+    font-family: "Roboto", sans-serif;
+
+
+}
+span{
+    color: red;
+}
+label{
+    font-weight: 700;
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+   
+}
+h2{
+    color: rgb(33, 83, 249);
+    font-weight: 900;
+    font-size: 30px;
+}
+ul{ width: 400px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly ;
+
+}
+
+.herosection{
+    width: 100%;
+    height:700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.leftsection{
+    width: 50%;
+    height: 700px;
+    border: 1px solid  rgb(225, 221, 221);
+    padding : 50px;
+    display: flex;
+   align-items: flex-start;
+   
+   flex-direction: column;
+}
+.leftsection h3{
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.leftsection h4{
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.btn button{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid rgb(107, 165, 253);
+    margin-bottom: 10px;
+    background-color: white;
+}
+form{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+   justify-content: space-between;
+    flex-direction: column;
+
+    
+}
+form input{
+    margin-bottom: 20px;
+    height: 40px;
+    width: 80%;
+    border-radius: 5px;
+    padding: 20px;
+    border: 0.5px solid rgb(225, 221, 221) ;
+}
+ 
+
+.formbtn{
+    
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.formbtn button{
+    height: 40px;
+    width: 150px;
+    text-align: start;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0.5px solid rgb(225, 221, 221);
+    background-color: white;
+}
+
+p{
+    margin-top: 20px;
+}
+
+.rightsection{
+    width: 50%;
+    height: 700px;
+    border: 1px solid  rgb(225, 221, 221);
+    padding: 15px;
+}
+.hero{
+    margin-top: 80px;
+    margin-left: 50px;
+}
+.hero h4{
+    margin-bottom: 20px;
+}
+.hero img {
+height: 70px;
+border: 0.5px solid  rgb(225, 221, 221);
+border-radius: 5px;
+}
+.heroone{
+    display: flex;
+    margin-bottom: 20px;
+ 
+  
+    
+}
+.herotwo{
+    display: flex;
+  
+}
+.para {
+    margin-left: 10px;
+}
+.cupon{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 0.5px solid gray;
+    width: 60%;
+    height: 40px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.cupon input{
+    border: none;
+}
+.cupon h5{
+    color: rgb(65, 65, 248);
+}
+.bhola{
+   display: flex;
+   width: 60%;
+ 
+   margin-top: 10px;
+   
+
+}
+.bhola ul{
+    display: flex;
+    align-items: flex-start;
+   flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+.bhola>ul:first-child{
+    font-weight: 300;
+}
+.bhola>ul:nth-child(2){
+   align-items: flex-end;
+   font-weight: 700;
+}
+.hero button{
+    background-color: rgb(57, 76, 244);
+width: 60%;
+height: 40px;
+border: none;
+margin-top: 10px;
+border-radius: 5px;
+color: white;
+}
+.footer{
+    margin-top: 15px;
+
+}
+.footer img{
+    height: 20px;
+    align-items: center;
+}
